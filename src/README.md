@@ -41,3 +41,5 @@ bash npm run dev
 Собрать проект:
 
 bash npm run build
+
+github pages

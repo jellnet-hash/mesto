@@ -2,7 +2,7 @@
   "name": "mesto-project-ff-main",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/jellnet-hash/mesto#readme",
+  "homepage": "https://github.com/jellnet-hash/mesto",
   "bugs": {
     "url": "https://github.com/jellnet-hash/mesto/issues"
   },
@@ -15,7 +15,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
@@ -25,6 +27,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.4",
     "cssnano": "^8.0.1",
+    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.7",
     "mini-css-extract-plugin": "^2.10.2",
