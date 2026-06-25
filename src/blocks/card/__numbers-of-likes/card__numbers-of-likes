@@ -1,0 +1,12 @@
+.card__numbers-of-likes {
+  font-size: 13px;
+  line-height: 1;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+.card__like-wrap { 
+  display: grid; 
+  gap: 3px; 
+}
